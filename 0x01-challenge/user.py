@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """ 
 User class
 """
@@ -23,8 +24,7 @@ class User():
         return self.__email
    
     
-if __name__ == "__main__":
-
-    u = User()
-    u.email = "john@snow.com"
-    print(u.email)
+    if __name__ == "__main__":
+        u = User()
+        u.email = "john@snow.com"
+        print(u.email)
