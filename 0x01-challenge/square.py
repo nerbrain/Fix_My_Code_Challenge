@@ -2,13 +2,13 @@
 
 """Square class"""
 
+
 class square():
     """Square stuff"""
-    
+
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """square stuff"""
         for key, value in kwargs.items():
@@ -26,10 +26,10 @@ class square():
         """formating"""
         return "{}/{}".format(self.width, self.height)
 
+
 if __name__ == "__main__":
 
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
-
