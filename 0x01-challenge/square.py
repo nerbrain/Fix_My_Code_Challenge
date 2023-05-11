@@ -33,3 +33,4 @@ if __name__ == "__main__":
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
+
